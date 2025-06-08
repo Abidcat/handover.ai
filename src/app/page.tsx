@@ -173,7 +173,7 @@ export default function Home() {
         {/* Main Heading */}
         <div className="text-center mb-8 max-w-4xl">
           <h1 className="text-6xl md:text-7xl font-black text-white mb-4 tracking-tight">
-            Idea to <span className="text-green-400">handoff</span> in seconds.
+            Eliminate <span className="text-green-400">handoff friction</span> in seconds.
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             <span className="text-green-400 font-mono tracking-wider">Handoff.ai</span> is your superhuman development documentation assistant.
