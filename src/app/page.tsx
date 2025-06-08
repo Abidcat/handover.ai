@@ -163,10 +163,48 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-green-900 flex flex-col">
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
-        {/* Heart Logo */}
+        {/* Logo */}
         <div className="mb-8">
-          <div className="w-20 h-20 bg-gradient-to-br from-green-400 via-green-500 to-green-600 rounded-full flex items-center justify-center text-4xl shadow-2xl shadow-green-500/25">
-            🤝
+          <div className="w-20 h-20 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-600 rounded-full flex items-center justify-center shadow-2xl shadow-green-500/25 border border-green-500/20">
+            <svg width="48" height="48" viewBox="0 0 120 120" className="text-green-400">
+              {/* Hand */}
+              <path
+                d="M40 30 C40 25 42 20 47 20 C52 20 55 25 55 30 L55 50 L60 50 L60 25 C60 20 62 15 67 15 C72 15 75 20 75 25 L75 50 L80 50 L80 30 C80 25 82 20 87 20 C92 20 95 25 95 30 L95 55 L85 55 L85 70 C85 75 82 80 77 80 L50 80 C45 80 40 75 40 70 L40 65 L35 65 C30 65 25 60 25 55 C25 50 30 45 35 45 L40 45 L40 30 Z"
+                fill="currentColor"
+              />
+              
+              {/* Orbital Ring 1 */}
+              <ellipse
+                cx="60"
+                cy="60"
+                rx="50"
+                ry="30"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                opacity="0.7"
+                transform="rotate(-25 60 60)"
+              />
+              
+              {/* Orbital Ring 2 */}
+              <ellipse
+                cx="60"
+                cy="60"
+                rx="50"
+                ry="30"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                opacity="0.5"
+                transform="rotate(25 60 60)"
+              />
+              
+              {/* Orbital Dots */}
+              <circle cx="105" cy="45" r="4" fill="currentColor" opacity="0.9" />
+              <circle cx="15" cy="75" r="4" fill="currentColor" opacity="0.9" />
+              <circle cx="90" cy="85" r="3" fill="currentColor" opacity="0.7" />
+              <circle cx="30" cy="35" r="3" fill="currentColor" opacity="0.7" />
+            </svg>
           </div>
         </div>
 
